@@ -10,14 +10,30 @@ which will yield a string of all directories in your path separated by colons, w
 
 To make viewing these paths easier, you can add a method to print it as a list like this:
 
-/Users/homefolder/Library/Android/sdk/platform-tools
+`
+/Users/homefolder/Library/Android/sdk/platform-tools 
+`
+`
 /usr/local/bin
+`
+`
 /usr/bin
+`
+`
 /bin
+`
+`
 /usr/sbin
+`
+`
 /sbin
+`
+`
 /usr/local/go/bin
+`
+`
 /Applications/Wireshark.app/Contents/MacOS
+`
 
 By adding the following method to your ~/.bash_profile, which will make it available when you login to the shell. After the change is made you can run:
 
